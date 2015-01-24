@@ -1,16 +1,10 @@
 # Site settings
-title: MrAndMrsJackson.co.uk
-sub-title: Toby and Lindsays Wedding Site
+title: Toby and Lindsay are getting Married!
 email: toby@warmfusion.co.uk
-description: > # this means to ignore newlines until "baseurl:"
-  Welcome to Toby and Lindsays Wedding site
-  where you can find the venue, upload photos, critisise the
-  spotify playlist and find all sorts of information about 
-  the wedding of the year
+
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://MrAndMrsJackson.co.uk" # the base hostname & protocol for your site
-twitter_username: warmfusion
-github_username:  warmfusion
+
 
 # Build settings
 markdown: kramdown
