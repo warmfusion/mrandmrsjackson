@@ -25,22 +25,24 @@ a:hover {
   display: table-cell;
   text-align: center;
   vertical-align: bottom;
+
 }
 
-.text-vbottom h1 {
+.text-vbottom {
   font-size: 4.5em;
-  font-weight: 700;
   margin: 0;
   padding: 0;
 }
 
-img.desaturate { 
-
+.welcome-banner {
+  text-align: left;
+  background-color:  rgba(255,255,255,0.6);
+  padding: 10px;
 }
 
 /* additional sections */
 #welcome {
-  background: url(../images/the_barn.jpg) no-repeat center center fixed; 
+  background: url(../images/scrabble.jpg) no-repeat center center fixed; 
   display: table;
   height: 100%;
   position: relative;
