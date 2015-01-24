@@ -2,6 +2,7 @@
 html, body {
   height: 100%;
   width: 100%;
+  color: #306D9F;
 }
 
 a {
@@ -33,8 +34,12 @@ a:hover {
   padding: 0;
 }
 
+img.desaturate { 
+
+}
+
 /* additional sections */
-#home {
+#welcome {
   background: url(../images/the_barn.jpg) no-repeat center center fixed; 
   display: table;
   height: 100%;
@@ -49,11 +54,11 @@ a:hover {
 #about {
 }
 
-#services {
+#bigday {
   background-color: #306d9f;
   color: #ffffff;
 }
-#services .glyphicon {
+#bigday .glyphicon {
   border: 2px solid #FFFFFF;
   border-radius: 50%;
   display: inline-block;
@@ -65,7 +70,7 @@ a:hover {
   width: 140px;
 }
 
-#information {
+#more_info {
   background: url(../images/the_barn.jpg) no-repeat center center fixed; 
   display: table;
   height: 800px;
@@ -76,7 +81,7 @@ a:hover {
   -o-background-size: cover;
   background-size: cover;
 }
-#information .panel {
+#more_info .panel {
   opacity: 0.85;
 }
 

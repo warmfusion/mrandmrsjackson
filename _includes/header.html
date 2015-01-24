@@ -16,10 +16,11 @@
 
     <div class="collapse navbar-collapse" id="navbar-collapse-main">
       <ul class="nav navbar-nav navbar-right">
+      {% assign sections = site.sections | sort: 'order' %}
 
-      {% for page in site.pages %}
+      {% for page in sections %}
         {% if page.title %}
-        <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+        <li><a class="page-link" href="#{{ page.anchor }}">{{ page.title }}</a></li>
         {% endif %}
       {% endfor %}
       </ul>

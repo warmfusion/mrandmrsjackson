@@ -14,3 +14,7 @@ github_username:  warmfusion
 
 # Build settings
 markdown: kramdown
+
+collections:
+  sections:
+    output: false
