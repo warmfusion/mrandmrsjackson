@@ -42,15 +42,14 @@ a:hover {
 
 /* additional sections */
 #welcome {
-  background: url(../images/scrabble.jpg) no-repeat center center fixed; 
-  display: table;
+
+  background: url(../images/background.png) no-repeat center center fixed; 
+  background-size: cover;
   height: 100%;
   position: relative;
-  width: 100%;
-  -webkit-background-size: 100% auto;
-  -moz-background-size:  100% auto;
-  -o-background-size:  100% auto;
-  background-size:  100% auto;
+  width: 110%;
+    left: -5%;
+  top: -5%;
 }
 
 #about {
