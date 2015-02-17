@@ -47,9 +47,9 @@ a:hover {
   background-size: cover;
   height: 100%;
   position: relative;
-  width: 110%;
-    left: -5%;
-  top: -5%;
+  width: 100%;
+  left: 0%;
+  top: 0%;
 }
 
 #about {
