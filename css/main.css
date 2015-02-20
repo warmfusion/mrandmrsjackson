@@ -14,7 +14,7 @@ a:hover {
 }
 /* padded section */
 .pad-section {
-  padding: 50px 0;
+  padding: 25px 0;
 }
 .pad-section img {
   width: 100%;
@@ -34,12 +34,6 @@ a:hover {
   padding: 0;
 }
 
-.welcome-banner {
-  text-align: left;
-  background-color:  rgba(255,255,255,0.6);
-  padding: 10px;
-}
-
 /* additional sections */
 #welcome {
 
@@ -52,13 +46,11 @@ a:hover {
   top: 0%;
 }
 
-#about {
-}
-
 #bigday {
   background-color: #306d9f;
   color: #ffffff;
 }
+
 #bigday .glyphicon {
   border: 2px solid #FFFFFF;
   border-radius: 50%;
@@ -74,9 +66,17 @@ a:hover {
 #bigday a{
   color: #D3A2E7;
 }
+
 #more_info {
   background: url(../images/the_barn.jpg) no-repeat center center fixed; 
-
+  display: table;
+  height: 800px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 #more_info .panel {
   opacity: 0.85;
@@ -88,11 +88,4 @@ a:hover {
 
 footer {
   padding: 20px 0;
-}
-footer .glyphicon {
-  color: #333333;
-  font-size: 60px;
-}
-footer .glyphicon:hover {
-  color: #306d9f;
 }

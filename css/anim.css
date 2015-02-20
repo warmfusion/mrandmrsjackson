@@ -20,13 +20,11 @@
   -moz-animation: balloon-swing 10s infinite alternate ease-in-out;
   -ms-animation: balloon-swing 10s infinite alternate ease-in-out;
 
-
   -webkit-transform-origin: 50% 0%;
   -moz-transform-origin: 50% 0%;
   transform-origin: 50% 0%;
 
   margin: 0px -64px;
-  background-size: 128px 224px;
   bottom: 10%;
   position: absolute;
   right: 80%;
@@ -40,8 +38,8 @@
   -webkit-transform-origin: 50% 00%;
   -moz-transform-origin: 50% 00%;
   transform-origin: 50% 00%;
+  
   margin: 0px -64px;
-  background-size: 128px 224px;
   bottom: 25%;
   position: absolute;
   right: 60%;
@@ -52,36 +50,22 @@
 }
 
 .banner{
-
-
   margin: 0px -64px;
-  background-size: 128px 224px;
   position: absolute;
   height: 20%;
-
 }
 
 .plane{
-
-
   margin: 0px -64px;
-  background-size: 128px 224px;
   position: absolute;
-
-    height: 20%;
-
-
+  height: 20%;
 }
 
 .cloud{
-
   -webkit-animation: moveclouds 20s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
   -moz-animation: moveclouds 20s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
   animation: moveclouds 20s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
-
-
   margin: 0px -64px;
-  background-size: 128px 224px;
   bottom: 75%;
   position: absolute;
   right: 30%;
@@ -99,7 +83,6 @@
   -moz-transform-origin: 20% 20%;
   transform-origin: 20% 20%;
   margin: 0px -64px;
-  background-size: 128px 224px;
   bottom: 120px;
   position: absolute;
   right: 10%;
@@ -118,7 +101,6 @@
   -moz-transform-origin: 80% 20%;
   transform-origin: 80% 20%;
   margin: 0px -64px;
-  background-size: 128px 224px;
   bottom: 0px;
   position: absolute;
   right: 40%;
