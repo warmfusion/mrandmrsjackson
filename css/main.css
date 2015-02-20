@@ -73,14 +73,7 @@ a:hover {
 
 #more_info {
   background: url(../images/the_barn.jpg) no-repeat center center fixed; 
-  display: table;
-  height: 800px;
-  position: relative;
-  width: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+
 }
 #more_info .panel {
   opacity: 0.85;
