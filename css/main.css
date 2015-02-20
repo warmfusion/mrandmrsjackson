@@ -71,6 +71,9 @@ a:hover {
   width: 140px;
 }
 
+#bigday a{
+  color: #D3A2E7;
+}
 #more_info {
   background: url(../images/the_barn.jpg) no-repeat center center fixed; 
 
