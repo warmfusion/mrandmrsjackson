@@ -80,6 +80,20 @@ a:hover {
   opacity: 0.85;
 }
 
+/* for background-size:cover replacement on iOS devices */
+@media only screen and (orientation: portrait) and (device-width: 320px), (device-width: 768px) {
+    #more_info {
+      -webkit-background-size: auto 150%;
+      background-attachment: scroll;
+    }
+}
+@media only screen and (orientation: landscape) and (device-width: 320px), (device-width: 768px) {
+    #more_info {
+      -webkit-background-size: 150% auto;
+      background-attachment: scroll;
+    }
+}
+
 #google_map {
   height: 500px;
 }
