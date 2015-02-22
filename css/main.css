@@ -70,8 +70,7 @@ a:hover {
 #more_info {
   background: url(../images/the_barn.jpg) no-repeat center center fixed; 
   display: table;
-  height: 800px;
-  position: absolute;
+  min-height: 600px;
   width: 100%;
 }
 #more_info .panel {
