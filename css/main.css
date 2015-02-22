@@ -69,7 +69,10 @@ a:hover {
 
 #more_info {
   background: url(../images/the_barn.jpg) no-repeat center center fixed; 
-  display: table;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   min-height: 600px;
   width: 100%;
 }
