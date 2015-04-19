@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /rsvp
+permalink: /rsvp/
 ---
 
 # Testing RSVP Page
