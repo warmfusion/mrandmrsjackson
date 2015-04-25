@@ -3,6 +3,10 @@ layout: default
 permalink: /rsvp/
 ---
 
-# Testing RSVP Page
+<script type="text/javascript">
+<!--
+window.location = "http://goo.gl/forms/oAiDOwhzi9"
+//-->
+</script>
 
-This is a temporary page ready for RSVP users
+You can submit your [RSVP here](http://goo.gl/forms/oAiDOwhzi9)
